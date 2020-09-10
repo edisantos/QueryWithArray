@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="container">
+    @if(TempData["ViewBag.MsgSuccess"]!=null)
+    {
+    <div class="alert alert-success">
+        @TempData["ViewBag.MsgSuccess"]
+    </div>
+    }
+   
+</div>

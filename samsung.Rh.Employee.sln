@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.UI", "01.UI", "{069962C7-2FB0-4F51-8AC2-0E5414A985B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Domain", "02.Domain", "{394FBAE8-6AA2-4E40-9EA6-7C1E8EC2030E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Repository", "03.Repository", "{7049AF6A-6B26-4404-98DA-24ADAE7EB507}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.Data", "04.Data", "{3536AA8F-A08B-4604-BA92-3257F5F7CFFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "samsung.Rh.Employee.Data", "samsung.Rh.Employee.Data\samsung.Rh.Employee.Data.csproj", "{3E44B21B-E1B0-46C1-89D7-51776CDD06BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "samsung.Rh.Employee.Domain", "samsung.Rh.Employee.Domain\samsung.Rh.Employee.Domain.csproj", "{F6572B4B-6A90-40AC-B327-8F2EA5AB324B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "samsung.Rh.Employee.Reposiory", "samsung.Rh.Employee.Reposiory\samsung.Rh.Employee.Reposiory.csproj", "{1AD8EE17-8CC7-4D50-9405-A83F6D688CDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "samsung.Rh.Employee.UI", "samsung.Rh.Employee.UI\samsung.Rh.Employee.UI.csproj", "{D6D682A5-96F5-4885-A847-B0EA94EC4843}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E44B21B-E1B0-46C1-89D7-51776CDD06BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E44B21B-E1B0-46C1-89D7-51776CDD06BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E44B21B-E1B0-46C1-89D7-51776CDD06BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E44B21B-E1B0-46C1-89D7-51776CDD06BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6572B4B-6A90-40AC-B327-8F2EA5AB324B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6572B4B-6A90-40AC-B327-8F2EA5AB324B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6572B4B-6A90-40AC-B327-8F2EA5AB324B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6572B4B-6A90-40AC-B327-8F2EA5AB324B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AD8EE17-8CC7-4D50-9405-A83F6D688CDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AD8EE17-8CC7-4D50-9405-A83F6D688CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AD8EE17-8CC7-4D50-9405-A83F6D688CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AD8EE17-8CC7-4D50-9405-A83F6D688CDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6D682A5-96F5-4885-A847-B0EA94EC4843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6D682A5-96F5-4885-A847-B0EA94EC4843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6D682A5-96F5-4885-A847-B0EA94EC4843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6D682A5-96F5-4885-A847-B0EA94EC4843}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3E44B21B-E1B0-46C1-89D7-51776CDD06BB} = {3536AA8F-A08B-4604-BA92-3257F5F7CFFB}
+		{F6572B4B-6A90-40AC-B327-8F2EA5AB324B} = {394FBAE8-6AA2-4E40-9EA6-7C1E8EC2030E}
+		{1AD8EE17-8CC7-4D50-9405-A83F6D688CDB} = {7049AF6A-6B26-4404-98DA-24ADAE7EB507}
+		{D6D682A5-96F5-4885-A847-B0EA94EC4843} = {069962C7-2FB0-4F51-8AC2-0E5414A985B6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DB41DAD-7863-4DF7-B8CC-9F024BCFF5A7}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,44 @@
+﻿@model IEnumerable<samsung.Rh.Employee.Domain.Entities.ProdutosModels>
+@{
+    ViewBag.Title = "Index";
+}
+
+    <div class="container">
+        <br /><br />
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <textarea class="form-control" name="ProdutoName" id="ProdutoName" placeholder="Entre com os produtos a pesquisar"></textarea><br />
+            <button type="submit" class="btn btn-success btn-lg btn-block">
+                <span> Procurar</span>
+            </button>
+        }
+        <hr />
+        <table class="table table-responsive">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Produto</th>
+                    <th>Valor</th>
+                    <th>Descricao</th>
+                </tr>
+              
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.ID</td>
+                        <td>@item.ProdutoName</td>
+                        <td>@Convert.ToDecimal(item.Valor)</td>
+                        <td>@item.Descricao</td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+
+
+

@@ -1,0 +1,11 @@
+E:\Projetos\registros\samsung.Rh.Employee\samsung.Rh.Employee.Reposiory\bin\Debug\samsung.Rh.Employee.Reposiory.dll
+E:\Projetos\registros\samsung.Rh.Employee\samsung.Rh.Employee.Reposiory\bin\Debug\samsung.Rh.Employee.Reposiory.pdb
+E:\Projetos\registros\samsung.Rh.Employee\samsung.Rh.Employee.Reposiory\bin\Debug\samsung.Rh.Employee.Data.dll
+E:\Projetos\registros\samsung.Rh.Employee\samsung.Rh.Employee.Reposiory\bin\Debug\samsung.Rh.Employee.Domain.dll
+E:\Projetos\registros\samsung.Rh.Employee\samsung.Rh.Employee.Reposiory\bin\Debug\samsung.Rh.Employee.Data.pdb
+E:\Projetos\registros\samsung.Rh.Employee\samsung.Rh.Employee.Reposiory\bin\Debug\samsung.Rh.Employee.Domain.pdb
+E:\Projetos\registros\samsung.Rh.Employee\samsung.Rh.Employee.Reposiory\obj\Debug\samsung.Rh.Employee.Reposiory.csprojAssemblyReference.cache
+E:\Projetos\registros\samsung.Rh.Employee\samsung.Rh.Employee.Reposiory\obj\Debug\samsung.Rh.Employee.Reposiory.csproj.CoreCompileInputs.cache
+E:\Projetos\registros\samsung.Rh.Employee\samsung.Rh.Employee.Reposiory\obj\Debug\samsung.Rh.Employee.Reposiory.csproj.CopyComplete
+E:\Projetos\registros\samsung.Rh.Employee\samsung.Rh.Employee.Reposiory\obj\Debug\samsung.Rh.Employee.Reposiory.dll
+E:\Projetos\registros\samsung.Rh.Employee\samsung.Rh.Employee.Reposiory\obj\Debug\samsung.Rh.Employee.Reposiory.pdb

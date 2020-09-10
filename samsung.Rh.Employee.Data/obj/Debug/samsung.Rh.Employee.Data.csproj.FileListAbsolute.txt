@@ -1,0 +1,6 @@
+E:\Projetos\registros\samsung.Rh.Employee\samsung.Rh.Employee.Data\bin\Debug\samsung.Rh.Employee.Data.dll
+E:\Projetos\registros\samsung.Rh.Employee\samsung.Rh.Employee.Data\bin\Debug\samsung.Rh.Employee.Data.pdb
+E:\Projetos\registros\samsung.Rh.Employee\samsung.Rh.Employee.Data\obj\Debug\samsung.Rh.Employee.Data.csproj.CoreCompileInputs.cache
+E:\Projetos\registros\samsung.Rh.Employee\samsung.Rh.Employee.Data\obj\Debug\samsung.Rh.Employee.Data.dll
+E:\Projetos\registros\samsung.Rh.Employee\samsung.Rh.Employee.Data\obj\Debug\samsung.Rh.Employee.Data.pdb
+E:\Projetos\registros\samsung.Rh.Employee\samsung.Rh.Employee.Data\obj\Debug\samsung.Rh.Employee.Data.csprojAssemblyReference.cache

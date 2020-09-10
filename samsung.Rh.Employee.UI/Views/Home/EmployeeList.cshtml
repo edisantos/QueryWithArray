@@ -1,0 +1,24 @@
+﻿@model IEnumerable<samsung.Rh.Employee.Domain.Entities.Employees>
+@{
+    ViewBag.Title = "EmployeeList";
+}
+
+    <div class="container">
+        <br />
+        @using (Html.BeginForm())
+        {
+            <label>Nome</label><br />
+
+        }
+        @foreach (var item in Model)
+        {
+            <label>@item.Id</label><br />
+            <label>@item.Nome</label><br />
+            <label>@item.SobreNome</label><br />
+            @Html.ActionLink("Editar","Editar",new { id=item.Id})
+            <hr />
+        }
+        <br />
+        @ViewBag.MsgError
+    </div>
+
