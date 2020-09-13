@@ -44,6 +44,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\EmployeeRepository.cs" />
     <Compile Include="Repositories\ProdutosRepository.cs" />
+    <Compile Include="Repositories\TesteRepository.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

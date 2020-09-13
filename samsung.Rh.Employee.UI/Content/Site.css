@@ -14,6 +14,8 @@
 */
 .dl-horizontal dt {
     white-space: normal;
+    text-align: center;
+    display: inline-block
 }
 
 /* Set width on the form input elements since they're 100% wide by default */
@@ -22,3 +24,26 @@ select,
 textarea {
     max-width: 280px;
 }*/
+.container-principal {
+    width: 90%;
+    margin-left: 5%;
+    margin:2%;
+}
+
+.container-left {
+    width: 20%;
+    display: inline-block;
+    float: left;
+    position: relative;
+    background-color: #DCDCDC;
+    padding-top:2%;
+    padding-left:5%;
+    min-height:30vw;
+    border-radius:2px
+}
+
+.container-right {
+    width: 70%;
+    display: inline-block;
+    float: right;
+}

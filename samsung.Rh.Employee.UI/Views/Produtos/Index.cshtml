@@ -1,44 +1,85 @@
-﻿@model IEnumerable<samsung.Rh.Employee.Domain.Entities.ProdutosModels>
+﻿@model samsung.Rh.Employee.Domain.Entities.ListaProdutos
 @{
     ViewBag.Title = "Index";
 }
 
-    <div class="container">
-        <br /><br />
-        @using (Html.BeginForm())
-        {
-            @Html.AntiForgeryToken()
+<div class="container-fluid">
+    <div class="container-principal">
+        <div class="alert alert-info">
+            <h3 style="text-align:center">Busca avançadas de produtos</h3>
+        </div>
+        <div class="container-left">
+            @*@Html.Partial("Registros","Produtos")*@
+            @using (Html.BeginForm())
+            {
+                <div class="form-inline">
+                    @Html.AntiForgeryToken()
+                    <div class="form-group">
 
-            <textarea class="form-control" name="ProdutoName" id="ProdutoName" placeholder="Entre com os produtos a pesquisar"></textarea><br />
-            <button type="submit" class="btn btn-success btn-lg btn-block">
-                <span> Procurar</span>
+                        @Html.TextBoxFor(x => x.Nome, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <button type="button" class="btn btn-danger" id="btnDel" name="btnDel">
+                            <span class="glyphicon glyphicon-remove-circle"></span>
+                        </button>
+                    </div>
+                </div>
+            }
+
+            <br />
+            @Html.Raw(ViewBag.GridViewString)
+        </div>
+        <div class="container-right">
+
+            <button type="button" class="btn btn-primary btn-lg btn-block" id="btnSearch">
+                <span> Apply</span>
             </button>
-        }
-        <hr />
-        <table class="table table-responsive">
-            <thead>
-                <tr>
-                    <th>Id</th>
-                    <th>Produto</th>
-                    <th>Valor</th>
-                    <th>Descricao</th>
-                </tr>
-              
-            </thead>
-            <tbody>
-                @foreach (var item in Model)
-                {
+            <table class="table table-responsive" id="tblProdutos">
+                <thead>
                     <tr>
-                        <td>@item.ID</td>
-                        <td>@item.ProdutoName</td>
-                        <td>@Convert.ToDecimal(item.Valor)</td>
-                        <td>@item.Descricao</td>
+                        <th>Id</th>
+                        <th>Produto</th>
+                        <th>Valor</th>
+                        <th>Descricao</th>
                     </tr>
-                }
 
-            </tbody>
-        </table>
+                </thead>
+                <tbody>
+                    @*@foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.ID</td>
+                                <td>@item.ProdutoName</td>
+                                <td>@Convert.ToDecimal(item.Valor)</td>
+                                <td>@item.Descricao</td>
+                            </tr>
+                        }*@
+
+                </tbody>
+            </table>
+        </div>
     </div>
+    @*@using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()*@
 
 
+    @*}*@
+    @*<hr />
+
+        <div class="col-xs-8 col-xs-offset-2">
+            <div class="col-xs-2" style="background-color: #F47B36; padding: 30px 10px;"></div>
+            <div class="col-xs-2 col-xs-offset-1" style="background-color: #F47B36; padding: 30px 10px;"></div>
+            <div class="col-xs-2 col-xs-offset-1" style="background-color: #F47B36; padding: 30px 10px;"></div>
+            <div class="col-xs-2 col-xs-offset-1" style="background-color: #F47B36;padding: 30px 10px;"></div>
+        </div>*@
+
+
+
+</div>
+
+@section scripts{
+    <script src="~/Scripts/GetProdutosPorNome.js"></script>
+    <script src="~/Scripts/DeleteRegistros.js"></script>
+}
 
