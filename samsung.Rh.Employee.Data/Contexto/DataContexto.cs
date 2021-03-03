@@ -25,7 +25,7 @@ namespace samsung.Rh.Employee.Data.Contexto
                  afafafa
                  
                  afsas*/
-                //string conn = string.Format(@"Source=DESKTOP-A900EN5\DBLEMOSINFOTEC;Initial Catalog=DbTeste;User ID=sa;Password=@Lemos318730");
+                
                 string strCon = ConfigurationManager.ConnectionStrings["Conexao"].ConnectionString;
                 con = new SqlConnection(strCon);
                 if(con.State== ConnectionState.Closed)
